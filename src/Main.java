@@ -15,5 +15,11 @@ public class Main {
         sinopse = "Filme de Carros Fodas e Ação";
         System.out.println(sinopse);
         //comentário muito útil;
+        int classificacao = (int) (media / 2);
+        System.out.println("A classificação é de: " + classificacao);
+        int celsius = 32;
+        int fahrenheit = (int) ((celsius * 1.8) + 32);
+        System.out.println("A temperatura em Fahrenheit é de: " + fahrenheit);
         }
+
     }
